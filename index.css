@@ -1,0 +1,60 @@
+/* Genel Footer Stili */
+footer {
+    background-color: #1f1f1f; /* Footer arka plan rengi */
+    color: #e0e0e0; /* Yazı rengi */
+    padding: 3rem 0; /* Üst ve alt boşluk */
+    font-family: 'Poppins', sans-serif; /* Yazı tipi */
+}
+
+/* Footer İçeriği Konteyneri */
+.footer-container {
+    display: flex;
+    justify-content: space-between; /* İçeriklerin arası */
+    gap: 2rem; /* Bölümler arası boşluk */
+    max-width: 1200px;
+    margin: 0 auto; /* Ortalamak */
+}
+
+/* Footer Bölüm Stili */
+.footer-section {
+    flex: 1; /* Her bölümün eşit büyüklükte olması */
+}
+
+/* Başlıklar */
+.footer-section h4 {
+    font-size: 1.5rem; /* Başlık boyutu */
+    margin-bottom: 1rem; /* Başlık ile içerik arasındaki boşluk */
+    color: #ff5c00; /* Başlık rengi (Primary Accent Color) */
+}
+
+/* Footer Bağlantı Listesi */
+.footer-links {
+    list-style: none;
+    padding: 0; /* Liste stilini kaldırma */
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem; /* Liste elemanları arası boşluk */
+}
+
+.footer-links a {
+    text-decoration: none; /* Alt çizgi kaldırma */
+    color: #a0a0a0; /* Bağlantı rengi */
+    transition: color 0.3s ease; /* Hover geçiş efekti */
+}
+
+.footer-links a:hover {
+    color: #ff5c00; /* Hover durumunda renk değişikliği */
+}
+
+/* İletişim Bilgisi */
+.contact-info {
+    color: #a0a0a0; /* İletişim metni rengi */
+}
+
+/* Footer Alt Kısım */
+.footer-bottom {
+    text-align: center; /* Ortalamak */
+    margin-top: 2rem; /* Üst boşluk */
+    font-size: 0.9rem; /* Küçük font boyutu */
+}
